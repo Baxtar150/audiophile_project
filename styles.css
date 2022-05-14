@@ -1,0 +1,94 @@
+body{
+   margin: 0;
+   max-width: 100%;
+font-family: 'Manrope', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.page_wrapper{
+
+   
+}
+.header{
+background-color: black;
+padding: 18px 15%;
+}
+.logo{
+    font-weight: 800;
+}
+.menu_bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.nav a {
+  margin-right: 30px;
+  font-family: Manrope;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cart_img{
+    color: white;
+    background-color: white;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.banner_text{
+    color: white
+
+}
+#new_product{
+  color: grey;
+letter-spacing: 6px;
+}
+.banner_text_h2{
+    font-size: 55px;
+    /* max-width: 255px; */
+    margin-top: -5px;
+}
+.bitmap_holder{
+    margin-left: 200px;
+   
+}
+#experience{
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+#btn{
+    border: 1px solid #D87D4A;
+    padding: 12px 20px;
+    background-color: #D87D4A;
+    color: white;
+}
+#product_section{
+    margin: 80px 0;
+    padding: 10px 60px;
+}
+.products{
+    padding: 18px 15%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+.product_card{
+    background-color: #F1F1F1;
+    width: 250px;
+    height:150px;
+    border-radius: 3px;
+    text-align: center;
+}
+.card_image{
+    width: 50%;
+    margin: -35px auto 0 auto;
+}
+.caret{
+    color: red;
+}
